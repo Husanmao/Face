@@ -38,5 +38,18 @@ public class BitCount {
 		return sum;
 	}
 	
+	/**
+	 * @param peopleNeed	每座金矿需要的人数
+	 * @param gold	每座金矿的金子数
+	 * @param people 剩下的工人总数
+	 * @param index	剩下的金矿序列最大值
+	 * @return
+	 */
+	public static int maxGold(int[] peopleNeed, int[] gold, int people, int index) {
+		if (index == 0 && people >= peopleNeed[index]) return 0;
+		if (index == 0 && people < peopleNeed[index]) return gold[index];
+		return Math.max(maxGold(peopleNeed, gold, people - peopleNeed[index], index - 1) + gold[index], 
+				maxGold(peopleNeed, gold, people, index - 1));
+	}
 	
 }

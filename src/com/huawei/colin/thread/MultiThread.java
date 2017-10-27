@@ -5,7 +5,7 @@ public class MultiThread {
 		
 	}
 	
-	static class MyAsyncTask extends AsyncTask<Integer, Integer, Integer>() {
-		
-	}
+//	static class MyAsyncTask extends AsyncTask<Integer, Integer, Integer>() {
+//
+//	}
 }

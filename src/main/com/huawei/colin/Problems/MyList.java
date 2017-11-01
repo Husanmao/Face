@@ -10,7 +10,7 @@ import java.util.List;
 
 public final class MyList<T> {
 
-    public static List<String> list = new ArrayList<String>();
+    public List<T> list = new ArrayList<T>();
 
     /**
      * Reverse a list

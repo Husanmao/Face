@@ -6,8 +6,24 @@ import static org.junit.Assert.*;
 
 public class MyArithmeticTest {
     @Test
+    public void getGoldbach() throws Exception {
+        assertArrayEquals(new int[]{5, 31}, MyArithmetic.getGoldbach(36));
+    }
+
+    @Test
+    public void getGoldbachAtRange() throws Exception {
+        int[] result = MyArithmetic.getGoldbachAtRange(2, 3000);
+        assertArrayEquals(new int[]{992, 1382, 1856, 1928, 2078, 2438, 2512, 2530, 2618, 2642}, result);
+    }
+
+    @Test
+    public void findPrimeFactors() throws Exception {
+        MyArithmetic.findPrimeFactors(499);
+    }
+
+    @Test
     public void phi() throws Exception {
-        assertEquals(1, MyArithmetic.phi(1));
+        assertEquals(42, MyArithmetic.phi(49));
     }
 
     @Test

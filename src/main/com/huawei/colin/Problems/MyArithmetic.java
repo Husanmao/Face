@@ -1,6 +1,9 @@
 package com.huawei.colin.Problems;
 
 import org.jetbrains.annotations.Contract;
+import org.jetbrains.annotations.NotNull;
+
+import java.util.Arrays;
 
 public class MyArithmetic {
 
@@ -12,8 +15,7 @@ public class MyArithmetic {
     public static boolean isPrime(int num) {
 
         if (num < 1) return false;  // 0 or negative isn't prime
-        int range = (int)(Math.log(num) / Math.log(2));
-        for (int i = 2; i <= range; i++) {
+        for (int i = 2; i * i <= num; i++) {
             if (num % i == 0) return false;
         }
         return true;
@@ -70,5 +72,63 @@ public class MyArithmetic {
             if (isCoprime(i, m)) num++;
         }
         return num;
+    }
+
+    /**
+     * Write a method that prints the prime factors of a given positive integer
+     * @param num The given positive num
+     */
+    public static void findPrimeFactors(int num) {
+        for (int i = 2; i * i <= num; i++) {
+            while (num % i == 0) {
+                System.out.println(i + " ");
+                num /= i;
+            }
+        }
+        if (num > 1) System.out.println(num + " ");
+        else System.out.println("");
+    }
+
+
+    /**
+     *  Write a predicate to find the two prime numbers that sum up to a given even number.
+     *  @param num
+     */
+    @Contract(pure = true)
+    public static int[] getGoldbach(int num) {
+        int[] result = new int[2];
+        if (num % 2 != 0)
+            throw new IllegalArgumentException();
+
+        for (int i = 2; 2 * i <= num; i++) {
+            if (isPrime(i) && isPrime(num - i)) {
+                result[0] = i;
+                result[1] = num - i;
+                break;
+            }
+        }
+        return result;
+    }
+    /**
+     * Given a range of integers by its lower and upper limit,
+     * print a list of all even numbers and their Goldbach composition.
+     * @param low The minium even number
+     * @param high The maxium even number
+     * @return Array contains of suitable even number
+     */
+    @NotNull
+    @Contract(pure = true)
+    public static int[] getGoldbachAtRange(int low, int high) {
+        int[] result = new int[2000];
+        int j = 0;
+        for (int i = low; i <= high; i++) {
+            if (i % 2 == 0) {
+                int[] temp = getGoldbach(i);
+                if (temp[0] > 50 && temp[1] > 50) {
+                    result[j++] = i;
+                }
+            }
+        }
+        return Arrays.copyOfRange(result, 0, j);
     }
 }

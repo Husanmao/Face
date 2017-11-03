@@ -1,12 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f9c8de96-b9d9-4bac-9ea1-3096990b1bfb" name="Default" comment="1.Some string problems">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/com/huawei/colin/Problems/MyWords.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/main/com/huawei/colin/Problems/MyWordsTest.java" />
+    <list default="true" id="f9c8de96-b9d9-4bac-9ea1-3096990b1bfb" name="Default" comment="1. Add log4j.jar for logging">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/com/huawei/colin/Problems/MySparese.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/com/huawei/colin/util/ExPatternLayout.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/com/huawei/colin/util/ExPatternParser.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/com/huawei/colin/util/MyNum.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/log4j.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/main/com/huawei/colin/util/MyNumTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/com/huawei/colin/Problems/MyArithmetic.java" afterPath="$PROJECT_DIR$/src/main/com/huawei/colin/Problems/MyArithmetic.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/main/com/huawei/colin/Problems/MyArithmeticTest.java" afterPath="$PROJECT_DIR$/test/main/com/huawei/colin/Problems/MyArithmeticTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Face.iml" afterPath="$PROJECT_DIR$/Face.iml" />
     </list>
     <ignored path="$PROJECT_DIR$/bin/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,26 +22,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MyWords.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/com/huawei/colin/Problems/MyWords.java">
+      <file leaf-file-name="MySparese.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/com/huawei/colin/Problems/MySparese.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2016">
-              <caret line="96" column="42" lean-forward="true" selection-start-line="96" selection-start-column="42" selection-end-line="96" selection-end-column="42" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#498#499#0" expanded="true" />
-                <element signature="e#550#551#0" expanded="true" />
-                <element signature="e#2647#2655#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MyList.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/com/huawei/colin/Problems/MyList.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="197">
-              <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+            <state relative-caret-position="139">
+              <caret line="16" column="58" lean-forward="false" selection-start-line="16" selection-start-column="58" selection-end-line="16" selection-end-column="58" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -45,47 +34,126 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MyArithmetic.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/com/huawei/colin/Problems/MyArithmetic.java">
+      <file leaf-file-name="ExPatternParser.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/com/huawei/colin/util/ExPatternParser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="218">
-              <caret line="96" column="26" lean-forward="true" selection-start-line="96" selection-start-column="26" selection-end-line="96" selection-end-column="26" />
+            <state relative-caret-position="173">
+              <caret line="9" column="4" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#317#318#0" expanded="true" />
+                <element signature="e#347#348#0" expanded="true" />
+                <element signature="e#777#778#0" expanded="true" />
+                <element signature="e#810#811#0" expanded="true" />
+                <element signature="e#944#945#0" expanded="true" />
+                <element signature="e#1021#1022#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="String.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/lang/String.java">
+      <file leaf-file-name="Map.java" pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/util/Map.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="236">
-              <caret line="3056" column="32" lean-forward="true" selection-start-line="3056" selection-start-column="32" selection-end-line="3056" selection-end-column="32" />
-              <folding>
-                <element signature="e#120482#120483#0" expanded="true" />
-                <element signature="e#120521#120522#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PrintStream.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/io/PrintStream.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-871">
-              <caret line="803" column="16" lean-forward="false" selection-start-line="803" selection-start-column="16" selection-end-line="803" selection-end-column="16" />
+            <state relative-caret-position="2241">
+              <caret line="211" column="6" lean-forward="false" selection-start-line="211" selection-start-column="6" selection-end-line="211" selection-end-column="6" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MyWordsTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/main/com/huawei/colin/Problems/MyWordsTest.java">
+      <file leaf-file-name="log4j.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/log4j.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="73">
-              <caret line="16" column="17" lean-forward="false" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+            <state relative-caret-position="588">
+              <caret line="127" column="41" lean-forward="false" selection-start-line="127" selection-start-column="41" selection-end-line="127" selection-end-column="41" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ExPatternLayout.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/com/huawei/colin/util/ExPatternLayout.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="352">
+              <caret line="20" column="19" lean-forward="false" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#216#217#0" expanded="true" />
+                <element signature="e#246#247#0" expanded="true" />
+                <element signature="e#278#279#0" expanded="true" />
+                <element signature="e#301#302#0" expanded="true" />
+                <element signature="e#448#449#0" expanded="true" />
+                <element signature="e#499#500#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MyListTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/main/com/huawei/colin/Problems/MyListTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="63">
+              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+              <folding>
+                <element signature="e#288#296#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MyNum.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/com/huawei/colin/util/MyNum.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="55">
+              <caret line="11" column="26" lean-forward="false" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Random.java" pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/util/Random.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="433">
+              <caret line="327" column="15" lean-forward="false" selection-start-line="327" selection-start-column="15" selection-end-line="327" selection-end-column="15" />
+              <folding>
+                <element signature="e#11985#11986#0" expanded="true" />
+                <element signature="e#12016#12017#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MyNumTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/main/com/huawei/colin/util/MyNumTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="9" lean-forward="false" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SecureRandom.java" pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/security/SecureRandom.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="515" column="25" lean-forward="false" selection-start-line="515" selection-start-column="25" selection-end-line="515" selection-end-column="25" />
+              <folding>
+                <element signature="e#14481#14482#0" expanded="true" />
+                <element signature="e#14519#14520#0" expanded="true" />
+                <element signature="e#14699#14700#0" expanded="true" />
+                <element signature="e#14730#14731#0" expanded="true" />
+                <element signature="e#15397#15398#0" expanded="true" />
+                <element signature="e#15448#15449#0" expanded="true" />
+                <element signature="e#16775#16776#0" expanded="true" />
+                <element signature="e#16829#16830#0" expanded="true" />
+                <element signature="e#19068#19069#0" expanded="true" />
+                <element signature="e#19135#19136#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -95,8 +163,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit4 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -126,7 +194,6 @@
         <option value="$PROJECT_DIR$/src/com/huawei/colin/Problems/NNStringArray.java" />
         <option value="$PROJECT_DIR$/src/com/huawei/colin/Problems/MyList.java" />
         <option value="$PROJECT_DIR$/src/com/huawei/colin/Problems/MyListTest.java" />
-        <option value="$PROJECT_DIR$/test/main/com/huawei/colin/Problems/MyListTest.java" />
         <option value="$PROJECT_DIR$/src/main/com/huawei/colin/Problems/MyList.java" />
         <option value="$PROJECT_DIR$/test/main/com/huawei/colin/Problems/Problem06Test.java" />
         <option value="$PROJECT_DIR$/src/main/com/huawei/colin/Problems/Problem06.java" />
@@ -136,6 +203,14 @@
         <option value="$PROJECT_DIR$/src/main/com/huawei/colin/Problems/MyArithmetic.java" />
         <option value="$PROJECT_DIR$/src/main/com/huawei/colin/Problems/MyWords.java" />
         <option value="$PROJECT_DIR$/test/main/com/huawei/colin/Problems/MyWordsTest.java" />
+        <option value="$PROJECT_DIR$/test/main/com/huawei/colin/util/MyNumTest.java" />
+        <option value="$PROJECT_DIR$/src/main/com/huawei/colin/util/MyNum.java" />
+        <option value="$PROJECT_DIR$/src/main/com/huawei/colin/log4j.properties" />
+        <option value="$PROJECT_DIR$/test/main/com/huawei/colin/Problems/MyListTest.java" />
+        <option value="$PROJECT_DIR$/src/main/com/huawei/colin/Problems/MySparese.java" />
+        <option value="$PROJECT_DIR$/src/main/com/huawei/colin/util/ExPatternLayout.java" />
+        <option value="$PROJECT_DIR$/src/main/log4j.properties" />
+        <option value="$PROJECT_DIR$/src/main/com/huawei/colin/util/ExPatternParser.java" />
       </list>
     </option>
   </component>
@@ -158,7 +233,13 @@
             <id />
           </State>
           <State>
-            <id>Android &gt; Lint &gt; Correctness &gt; Messages</id>
+            <id>Java</id>
+          </State>
+          <State>
+            <id>Java 7Java language level migration aidsJava</id>
+          </State>
+          <State>
+            <id>Java language level migration aidsJava</id>
           </State>
           <State>
             <id>Spelling</id>
@@ -192,7 +273,58 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="Scope" />
+      <pane id="Scope">
+        <subPane subId="Production">
+          <expand>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="Face" type="cbb8eebc:String" user="Face" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="Face" type="cbb8eebc:String" user="Face" />
+              <item name="src/main" type="cbb8eebc:String" user="src/main" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="Face" type="cbb8eebc:String" user="Face" />
+              <item name="src/main" type="cbb8eebc:String" user="src/main" />
+              <item name="com/huawei/colin" type="cbb8eebc:String" user="com/huawei/colin" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="Face" type="cbb8eebc:String" user="Face" />
+              <item name="src/main" type="cbb8eebc:String" user="src/main" />
+              <item name="com/huawei/colin" type="cbb8eebc:String" user="com/huawei/colin" />
+              <item name="thread" type="cbb8eebc:String" user="thread" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <subPane subId="Project Files">
+          <expand>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="Face" type="cbb8eebc:String" user="Face" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="Face" type="cbb8eebc:String" user="Face" />
+              <item name="src/main" type="cbb8eebc:String" user="src/main" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <subPane subId="Default">
+          <expand>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="Face" type="cbb8eebc:String" user="Face" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -224,7 +356,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="colin" type="462c0819:PsiDirectoryNode" />
-              <item name="Problems" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Face" type="b2602c69:ProjectViewProjectNode" />
@@ -242,6 +374,14 @@
               <item name="Face" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="colin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Face" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Face" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="colin" type="462c0819:PsiDirectoryNode" />
               <item name="Problems" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -253,17 +393,18 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="create.test.in.the.same.root" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.huawei.colin.util" />
       <recent name="com.huawei.colin.Problems" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
@@ -285,16 +426,21 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.com.huawei.colin.Problems in Face">
-    <configuration name="All in Face" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+  <component name="RunManager" selected="Application.MySparese">
+    <configuration name="MyArithmeticTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.huawei.colin.Problems.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <module name="Face" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" />
+      <option name="PACKAGE_NAME" value="com.huawei.colin.Problems" />
+      <option name="MAIN_CLASS_NAME" value="com.huawei.colin.Problems.MyArithmeticTest" />
       <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="package" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -306,33 +452,39 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="MyList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="MyNumTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.huawei.colin.Problems.*" />
+          <option name="PATTERN" value="com.huawei.colin.util.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.huawei.colin.Problems.MyList" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <module name="Face" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="PACKAGE_NAME" value="com.huawei.colin.util" />
+      <option name="MAIN_CLASS_NAME" value="com.huawei.colin.util.MyNumTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Face" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
       <envs />
+      <patterns />
     </configuration>
-    <configuration name="NNStringArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="MySparese" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.huawei.colin.Problems.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.huawei.colin.Problems.NNStringArray" />
+      <option name="MAIN_CLASS_NAME" value="com.huawei.colin.Problems.MySparese" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -470,19 +622,19 @@
       <patterns />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.NNStringArray" />
-      <item index="1" class="java.lang.String" itemvalue="Application.MyList" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.All in Face" />
-      <item index="3" class="java.lang.String" itemvalue="Application.Queen" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.com.huawei.colin.Problems in Face" />
+      <item index="0" class="java.lang.String" itemvalue="Application.Queen" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.com.huawei.colin.Problems in Face" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.MyNumTest" />
+      <item index="3" class="java.lang.String" itemvalue="Application.MySparese" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.MyArithmeticTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.com.huawei.colin.Problems in Face" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Queen" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.All in Face" />
-        <item index="3" class="java.lang.String" itemvalue="Application.MyList" />
-        <item index="4" class="java.lang.String" itemvalue="Application.NNStringArray" />
+        <item index="0" class="java.lang.String" itemvalue="Application.MySparese" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.MyArithmeticTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.MyNumTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.com.huawei.colin.Problems in Face" />
+        <item index="4" class="java.lang.String" itemvalue="Application.Queen" />
       </list>
     </recent_temporary>
   </component>
@@ -497,7 +649,7 @@
       <option name="presentableId" value="Default" />
       <updated>1509115816286</updated>
       <workItem from="1509115821479" duration="5190000" />
-      <workItem from="1509459407162" duration="23609000" />
+      <workItem from="1509459407162" duration="29055000" />
     </task>
     <task id="LOCAL-00001" summary="99 Problems">
       <created>1509121988812</created>
@@ -520,27 +672,31 @@
       <option name="project" value="LOCAL" />
       <updated>1509555772688</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="1. Some words problems">
+      <created>1509638477523</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1509638477523</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="com_huawei_colin_Problems_in_Face - 2017.11.02 at 23h 29m 29s.xml">
-      <configuration name="com.huawei.colin.Problems in Face" configurationId="JUnit" />
+    <history-entry file="MyArithmeticTest - 2017.11.04 at 01h 52m 26s.xml">
+      <configuration name="MyArithmeticTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="com_huawei_colin_Problems_in_Face - 2017.11.02 at 23h 30m 07s.xml">
-      <configuration name="com.huawei.colin.Problems in Face" configurationId="JUnit" />
+    <history-entry file="MyNumTest - 2017.11.04 at 01h 06m 38s.xml">
+      <configuration name="MyNumTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="com_huawei_colin_Problems_in_Face - 2017.11.02 at 23h 33m 08s.xml">
-      <configuration name="com.huawei.colin.Problems in Face" configurationId="JUnit" />
+    <history-entry file="MyNumTest - 2017.11.04 at 01h 06m 59s.xml">
+      <configuration name="MyNumTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="com_huawei_colin_Problems_in_Face - 2017.11.02 at 23h 51m 33s.xml">
-      <configuration name="com.huawei.colin.Problems in Face" configurationId="JUnit" />
+    <history-entry file="MyNumTest - 2017.11.04 at 01h 20m 06s.xml">
+      <configuration name="MyNumTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="com_huawei_colin_Problems_in_Face - 2017.11.02 at 23h 52m 36s.xml">
-      <configuration name="com.huawei.colin.Problems in Face" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="com_huawei_colin_Problems_in_Face - 2017.11.02 at 23h 52m 55s.xml">
-      <configuration name="com.huawei.colin.Problems in Face" configurationId="JUnit" />
+    <history-entry file="MyNumTest - 2017.11.04 at 01h 32m 25s.xml">
+      <configuration name="MyNumTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="com_huawei_colin_Problems_in_Face - 2017.11.02 at 23h 53m 05s.xml">
       <configuration name="com.huawei.colin.Problems in Face" configurationId="JUnit" />
@@ -554,9 +710,12 @@
     <history-entry file="com_huawei_colin_Problems_in_Face - 2017.11.02 at 23h 54m 38s.xml">
       <configuration name="com.huawei.colin.Problems in Face" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="com_huawei_colin_Problems_in_Face - 2017.11.04 at 01h 05m 29s.xml">
+      <configuration name="com.huawei.colin.Problems in Face" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28799000" />
+    <option name="totallyTimeSpent" value="34245000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -573,11 +732,11 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.49444443" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.50555557" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28117648" sideWeight="0.49444443" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28117648" sideWeight="0.49444443" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -611,7 +770,9 @@
     <MESSAGE value="99 Problems" />
     <MESSAGE value="1.Create test dir, using junit 4&#10;2.Add MyList.java(some list problems)" />
     <MESSAGE value="1.Some string problems" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.Some string problems" />
+    <MESSAGE value="1. Some words problems" />
+    <MESSAGE value="1. Add log4j.jar for logging" />
+    <option name="LAST_COMMIT_MESSAGE" value="1. Add log4j.jar for logging" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -716,17 +877,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/main/com/huawei/colin/Problems/MyListTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="36" column="50" lean-forward="false" selection-start-line="36" selection-start-column="50" selection-end-line="36" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#288#296#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/main/com/huawei/colin/Problems/Problem07Test.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
@@ -740,21 +890,6 @@
         <state relative-caret-position="212">
           <caret line="251" column="32" lean-forward="false" selection-start-line="251" selection-start-column="32" selection-end-line="251" selection-end-column="32" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/lang/Math.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="642" column="25" lean-forward="false" selection-start-line="642" selection-start-column="25" selection-end-line="642" selection-end-column="25" />
-          <folding>
-            <element signature="e#11119#11120#0" expanded="false" />
-            <element signature="e#11200#11201#0" expanded="false" />
-            <element signature="e#11999#12000#0" expanded="false" />
-            <element signature="e#12082#12083#0" expanded="false" />
-            <element signature="e#66828#66829#0" expanded="false" />
-            <element signature="e#66870#66871#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -811,7 +946,7 @@
         <state relative-caret-position="168">
           <caret line="8" column="9" lean-forward="true" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -910,10 +1045,10 @@
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/lang/String.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="236">
-          <caret line="3056" column="32" lean-forward="true" selection-start-line="3056" selection-start-column="32" selection-end-line="3056" selection-end-column="32" />
+          <caret line="3056" column="32" lean-forward="false" selection-start-line="3056" selection-start-column="32" selection-end-line="3056" selection-end-column="32" />
           <folding>
-            <element signature="e#120482#120483#0" expanded="true" />
-            <element signature="e#120521#120522#0" expanded="true" />
+            <element signature="e#120482#120483#0" expanded="false" />
+            <element signature="e#120521#120522#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -929,7 +1064,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/com/huawei/colin/Problems/MyWords.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2016">
-          <caret line="96" column="42" lean-forward="true" selection-start-line="96" selection-start-column="42" selection-end-line="96" selection-end-column="42" />
+          <caret line="96" column="42" lean-forward="false" selection-start-line="96" selection-start-column="42" selection-end-line="96" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#498#499#0" expanded="true" />
@@ -942,7 +1077,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/com/huawei/colin/Problems/MyList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="197">
-          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -951,8 +1086,151 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/com/huawei/colin/Problems/MyArithmetic.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="96" column="26" lean-forward="true" selection-start-line="96" selection-start-column="26" selection-end-line="96" selection-end-column="26" />
+        <state relative-caret-position="213">
+          <caret line="96" column="26" lean-forward="false" selection-start-line="96" selection-start-column="26" selection-end-line="96" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/lang/Math.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="559">
+          <caret line="771" column="25" lean-forward="false" selection-start-line="771" selection-start-column="25" selection-end-line="771" selection-end-column="25" />
+          <folding>
+            <element signature="e#32010#32011#0" expanded="true" />
+            <element signature="e#32095#32096#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/security/SecureRandom.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="515" column="25" lean-forward="false" selection-start-line="515" selection-start-column="25" selection-end-line="515" selection-end-column="25" />
+          <folding>
+            <element signature="e#14481#14482#0" expanded="true" />
+            <element signature="e#14519#14520#0" expanded="true" />
+            <element signature="e#14699#14700#0" expanded="true" />
+            <element signature="e#14730#14731#0" expanded="true" />
+            <element signature="e#15397#15398#0" expanded="true" />
+            <element signature="e#15448#15449#0" expanded="true" />
+            <element signature="e#16775#16776#0" expanded="true" />
+            <element signature="e#16829#16830#0" expanded="true" />
+            <element signature="e#19068#19069#0" expanded="true" />
+            <element signature="e#19135#19136#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/main/com/huawei/colin/util/MyNumTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="9" lean-forward="false" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/util/Random.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="433">
+          <caret line="327" column="15" lean-forward="false" selection-start-line="327" selection-start-column="15" selection-end-line="327" selection-end-column="15" />
+          <folding>
+            <element signature="e#11985#11986#0" expanded="true" />
+            <element signature="e#12016#12017#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/com/huawei/colin/util/MyNum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="55">
+          <caret line="11" column="26" lean-forward="false" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/main/com/huawei/colin/Problems/MyListTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding>
+            <element signature="e#288#296#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Downloads/apache-log4j-1.2.17/log4j-1.2.17.jar!/org/apache/log4j/Logger.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-411">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Downloads/apache-log4j-1.2.17/log4j-1.2.17.jar!/org/apache/log4j/Category.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1192">
+          <caret line="254" column="16" lean-forward="false" selection-start-line="254" selection-start-column="16" selection-end-line="254" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/util/Map.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2241">
+          <caret line="211" column="6" lean-forward="false" selection-start-line="211" selection-start-column="6" selection-end-line="211" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="588">
+          <caret line="127" column="41" lean-forward="false" selection-start-line="127" selection-start-column="41" selection-end-line="127" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/com/huawei/colin/util/ExPatternLayout.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="20" column="19" lean-forward="false" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#216#217#0" expanded="true" />
+            <element signature="e#246#247#0" expanded="true" />
+            <element signature="e#278#279#0" expanded="true" />
+            <element signature="e#301#302#0" expanded="true" />
+            <element signature="e#448#449#0" expanded="true" />
+            <element signature="e#499#500#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/com/huawei/colin/util/ExPatternParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="9" column="4" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#317#318#0" expanded="true" />
+            <element signature="e#347#348#0" expanded="true" />
+            <element signature="e#777#778#0" expanded="true" />
+            <element signature="e#810#811#0" expanded="true" />
+            <element signature="e#944#945#0" expanded="true" />
+            <element signature="e#1021#1022#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/com/huawei/colin/Problems/MySparese.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="16" column="58" lean-forward="false" selection-start-line="16" selection-start-column="58" selection-end-line="16" selection-end-column="58" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

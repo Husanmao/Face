@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f9c8de96-b9d9-4bac-9ea1-3096990b1bfb" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/com/huawei/colin/util/MyString.java" afterPath="$PROJECT_DIR$/src/main/com/huawei/colin/util/MyString.java" />
     </list>
     <ignored path="$PROJECT_DIR$/bin/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,8 +32,8 @@
       <file leaf-file-name="MyString.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/com/huawei/colin/util/MyString.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="134">
-              <caret line="12" column="48" lean-forward="false" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
+            <state relative-caret-position="407">
+              <caret line="25" column="18" lean-forward="true" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -647,7 +646,7 @@
       <workItem from="1509973633546" duration="13049000" />
       <workItem from="1510922550199" duration="13000" />
       <workItem from="1510922593298" duration="5761000" />
-      <workItem from="1511019510123" duration="5962000" />
+      <workItem from="1511019510123" duration="6024000" />
     </task>
     <task id="LOCAL-00001" summary="99 Problems">
       <created>1509121988812</created>
@@ -691,7 +690,14 @@
       <option name="project" value="LOCAL" />
       <updated>1511026387805</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="1. Compare the effect between String plus(+)、StringBuilder.append、StringBuffer.append.&#10;   result: 10000 chars &amp; 10 loops&#10;   String Plus Average : 566ms&#10;   String Builder Average : 0ms&#10;   String Buffer Average : 0ms&#10;   &#10;   result: 10,000,000 chars &amp; 10 loops without testing String Plus&#10;   String Builder Average : 111ms&#10;   String Buffer Average : 298ms&#10;   &#10;   Conclusion : String plus(+) is very slow while StringBuilder is bit of faster than StringBuffer&#10;   &#10;2. Translate between int and char in ascii code&#10;   Problems: &#10;           * Can't print ascii code 13&#10;           * Not all Chinese can be represent by ascii code, Try unicode&#10;3. Try some new features in java 8 (eg: lambda, method interface...)">
+      <created>1511026519400</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1511026519400</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -727,7 +733,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59847000" />
+    <option name="totallyTimeSpent" value="59909000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -748,7 +754,7 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.50555557" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27206773" sideWeight="0.49444443" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27206773" sideWeight="0.49444443" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -785,7 +791,8 @@
     <MESSAGE value="1. Some words problems" />
     <MESSAGE value="1. Add log4j.jar for logging" />
     <MESSAGE value="1. Compare the effect between String plus(+)、StringBuilder.append、StringBuffer.append.&#10;   result: 10000 chars &amp; 10 loops&#10;   String Plus Average : 566ms&#10;   String Builder Average : 0ms&#10;   String Buffer Average : 0ms&#10;   &#10;   result: 1000000 chars &amp; 10 loops without testing String Plus&#10;   String Builder Average : 29ms&#10;   String Buffer Average : 59ms&#10;   &#10;   Conclusion : String plus(+) is very slow while StringBuilder is bit of faster than StringBuffer&#10;   &#10;2. Translate between int and char in ascii code&#10;   Problems: &#10;           * Can't print ascii code 13&#10;           * Not all Chinese can be represent by ascii code, Try unicode&#10;3. Try some new features in java 8 (eg: lambda, method interface...)" />
-    <option name="LAST_COMMIT_MESSAGE" value="1. Compare the effect between String plus(+)、StringBuilder.append、StringBuffer.append.&#10;   result: 10000 chars &amp; 10 loops&#10;   String Plus Average : 566ms&#10;   String Builder Average : 0ms&#10;   String Buffer Average : 0ms&#10;   &#10;   result: 1000000 chars &amp; 10 loops without testing String Plus&#10;   String Builder Average : 29ms&#10;   String Buffer Average : 59ms&#10;   &#10;   Conclusion : String plus(+) is very slow while StringBuilder is bit of faster than StringBuffer&#10;   &#10;2. Translate between int and char in ascii code&#10;   Problems: &#10;           * Can't print ascii code 13&#10;           * Not all Chinese can be represent by ascii code, Try unicode&#10;3. Try some new features in java 8 (eg: lambda, method interface...)" />
+    <MESSAGE value="1. Compare the effect between String plus(+)、StringBuilder.append、StringBuffer.append.&#10;   result: 10000 chars &amp; 10 loops&#10;   String Plus Average : 566ms&#10;   String Builder Average : 0ms&#10;   String Buffer Average : 0ms&#10;   &#10;   result: 10,000,000 chars &amp; 10 loops without testing String Plus&#10;   String Builder Average : 111ms&#10;   String Buffer Average : 298ms&#10;   &#10;   Conclusion : String plus(+) is very slow while StringBuilder is bit of faster than StringBuffer&#10;   &#10;2. Translate between int and char in ascii code&#10;   Problems: &#10;           * Can't print ascii code 13&#10;           * Not all Chinese can be represent by ascii code, Try unicode&#10;3. Try some new features in java 8 (eg: lambda, method interface...)" />
+    <option name="LAST_COMMIT_MESSAGE" value="1. Compare the effect between String plus(+)、StringBuilder.append、StringBuffer.append.&#10;   result: 10000 chars &amp; 10 loops&#10;   String Plus Average : 566ms&#10;   String Builder Average : 0ms&#10;   String Buffer Average : 0ms&#10;   &#10;   result: 10,000,000 chars &amp; 10 loops without testing String Plus&#10;   String Builder Average : 111ms&#10;   String Buffer Average : 298ms&#10;   &#10;   Conclusion : String plus(+) is very slow while StringBuilder is bit of faster than StringBuffer&#10;   &#10;2. Translate between int and char in ascii code&#10;   Problems: &#10;           * Can't print ascii code 13&#10;           * Not all Chinese can be represent by ascii code, Try unicode&#10;3. Try some new features in java 8 (eg: lambda, method interface...)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1191,8 +1198,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/com/huawei/colin/util/MyString.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="12" column="48" lean-forward="false" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
+        <state relative-caret-position="407">
+          <caret line="25" column="18" lean-forward="true" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
           <folding />
         </state>
       </provider>

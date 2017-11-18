@@ -2,7 +2,6 @@ package com.huawei.colin.Problems;
 
 import com.huawei.colin.util.MyNum;
 import org.apache.log4j.Logger;
-import org.apache.log4j.PropertyConfigurator;
 
 import java.util.Date;
 import java.util.HashMap;
@@ -12,7 +11,7 @@ public class MySparese {
 
     private static final Logger logger = Logger.getLogger(MySparese.class);
 
-    private static final int MAX = 192433;
+    private static final int MAX = 2433;
 
     private static Map<Integer, String> map = new HashMap<Integer, String>();
 

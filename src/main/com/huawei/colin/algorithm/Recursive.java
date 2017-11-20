@@ -1,4 +1,4 @@
-package com.huawei.colin;
+package com.huawei.colin.algorithm;
 
 /**
  * 汉诺塔问题 : 递推与递归

@@ -1,4 +1,4 @@
-package com.huawei.colin;
+package com.huawei.colin.algorithm;
 
 /**
  * 递归计算

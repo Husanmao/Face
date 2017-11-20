@@ -1,5 +1,8 @@
 package com.huawei.colin.util;
 
+import com.sun.istack.internal.NotNull;
+import org.jetbrains.annotations.Contract;
+
 import java.util.Date;
 
 /**
@@ -56,5 +59,16 @@ public final class MyString {
         } while (++j < TIMES);
         long buffer_between = new Date().getTime() - origin;
         System.out.println("String Buffer Average : " + buffer_between / TIMES + " ms ");
+    }
+
+    /**
+     * Check whether str is empty (null or length is 0)
+     * @param str String
+     * @return {@code true} if str is null or length equals 0, {@code false} otherwise
+     */
+    @NotNull
+    @Contract(pure = true)
+    public static boolean isEmpty(String str) {
+        return str == null || str.length() < 1;
     }
 }

@@ -5,11 +5,19 @@ package com.huawei.colin.util;
  * @Description:
  * @Date: 2017/11/19
  */
-public class ConcurrentHandler {
-    private static ConcurrentHandler ourInstance = new ConcurrentHandler();
+public final class ConcurrentHandler {
+    //private static ConcurrentHandler ourInstance = new ConcurrentHandler();
+
+    private static int count = 0;
+
 
     public static ConcurrentHandler getInstance() {
-        return ourInstance;
+        if (count < 3) {
+            count++;
+            return new ConcurrentHandler();
+        } else {
+            return null;
+        }
     }
 
     private ConcurrentHandler() {

@@ -1,4 +1,4 @@
-package com.huawei.colin;
+package com.huawei.colin.algorithm;
 
 public class BitCount {
 

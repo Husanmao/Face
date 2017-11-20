@@ -1,4 +1,6 @@
-package com.huawei.colin;
+package com.huawei.colin.algorithm;
+
+import com.huawei.colin.algorithm.RunOver;
 
 import java.util.ArrayList;
 import java.util.Date;

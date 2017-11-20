@@ -1,4 +1,4 @@
-package com.huawei.colin;
+package com.huawei.colin.algorithm;
 
 /**
  * 八皇后问题:回溯法与迭代法

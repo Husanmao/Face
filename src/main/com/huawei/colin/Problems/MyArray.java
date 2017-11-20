@@ -1,14 +1,13 @@
 package com.huawei.colin.Problems;
 
+import com.huawei.colin.util.MyNum;
 import com.sun.istack.internal.NotNull;
 import org.jetbrains.annotations.Contract;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.List;
+import java.lang.reflect.Array;
+import java.util.*;
 
 public class MyArray {
-
 
     public static void main(String[] args) {
         findMidSortedArray(new int[]{3, 32, 532, 1432, 234324325, 1321412532}, new int[]{334, 3453, 234325, 43578943});
@@ -79,5 +78,34 @@ public class MyArray {
             System.out.print(" " + s);
         }
         return 0;
+    }
+
+
+    /**
+     * Compare the efficient between Arrays.copyOfRange and System.arraycopy
+     */
+    public static void copyArrays() {
+        System.out.println("<<<<Effect compare " + MyNum.MAX_NUM + " times " + " with " + MyNum.MAX_TIMES + " loop>>>>");
+        String[] ary = {"hudongfeng"};
+        String[] ary2 = {};
+        long origin = new Date().getTime();
+        int times = 0;
+        do {
+            for (int i = 0; i < MyNum.MAX_NUM; i++) {
+                ary2 = Arrays.copyOfRange(ary, 0, ary.length);
+            }
+        } while (++times < MyNum.MAX_TIMES);
+        long array_now = new Date().getTime();
+        System.out.println("arrays copyofrange averaye cost is : " + (array_now - origin) / MyNum.MAX_TIMES + " ms ");
+
+        origin = new Date().getTime();
+        times = 0;
+        do {
+            for (int i = 0; i < MyNum.MAX_NUM; i++) {
+                System.arraycopy(ary, 0, ary, 0, ary.length);
+            }
+        } while (++times < MyNum.MAX_TIMES);
+        long system_now = new Date().getTime();
+        System.out.println("system_now averaye cost is : " + (system_now - origin) / MyNum.MAX_TIMES + " ms ");
     }
 }

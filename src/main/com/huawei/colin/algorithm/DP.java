@@ -59,15 +59,11 @@ public class DP {
     public static boolean canTranscodeImpl(String str, String output) {
         if (MyString.isEmpty(str) || str.length() == 1) {
             op = map.get(str);
-            System.out.println(op);
-            System.out.println("solution is " + op + output);
             return true;
         }
         if (str.length() == 2) {
             if (Integer.parseInt(str) <= 26) {
                 op = map.get(str);
-                System.out.println(op);
-                System.out.println("solution is " + op + output);
                 return true;
             }
             return false;
@@ -77,11 +73,9 @@ public class DP {
         int last_two_value = Integer.parseInt(temp);
         if (last_two_value <= 26) {
             op = map.get(temp);
-            System.out.println(op);
             return canTranscodeImpl(str.substring(0, str.length() - 1), op + output)
                     || canTranscodeImpl(str.substring(0, str.length() - 2), op + output);
         } else {
-            System.out.println(op);
             op = map.get(str.substring(str.length() - 1, str.length()));
             return canTranscodeImpl(str.substring(0, str.length() - 1), op + output);
         }

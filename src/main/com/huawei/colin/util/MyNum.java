@@ -11,7 +11,14 @@ import java.util.Random;
  */
 public final class MyNum {
 
+    // how many times we loop
+    public static final int MAX_NUM = 100000000;
+
+    // how many loop we try
+    public static final int MAX_TIMES = 10;
+
     private static SecureRandom secureRandom;
+
     private static final Logger logger = Logger.getLogger(MyNum.class);
 
     /**

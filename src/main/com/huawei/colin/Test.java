@@ -1,6 +1,7 @@
 package com.huawei.colin;
 
 import com.huawei.colin.NewFeatures.Java8NewFeatures;
+import com.huawei.colin.Problems.MyArray;
 import com.huawei.colin.Problems.MyLoop;
 import com.huawei.colin.algorithm.DP;
 
@@ -41,12 +42,13 @@ public class Test {
         System.out.println(TAG);
         //MyString.concatEffectCompare();
         Map<String, String> map = DP.initMap();
-        map.forEach((k, x)-> System.out.println(k + " -> " + x));
+//        map.forEach((k, x)-> System.out.println(k + " -> " + x));
         if (DP.canTranscode("1234124421")) {
             System.out.println("Can transcode");
         } else {
             System.out.println("Can't transcode");
         }
-        MyLoop.loopEffect();
+//        MyLoop.loopEffect();
+        MyArray.copyArrays();
     }
 }

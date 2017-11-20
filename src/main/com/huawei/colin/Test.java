@@ -1,11 +1,12 @@
 package com.huawei.colin;
 
 import com.huawei.colin.NewFeatures.Java8NewFeatures;
-import com.huawei.colin.util.MyString;
+import com.huawei.colin.Problems.MyLoop;
+import com.huawei.colin.algorithm.DP;
 
 import java.util.Arrays;
-import java.util.Date;
 import java.util.List;
+import java.util.Map;
 
 import static java.util.stream.Collectors.joining;
 
@@ -38,6 +39,14 @@ public class Test {
         System.out.println(acronym("jklfjds kldfj K fd"));
         Java8NewFeatures.myLambda("hudongfeng");
         System.out.println(TAG);
-        MyString.concatEffectCompare();
+        //MyString.concatEffectCompare();
+        Map<String, String> map = DP.initMap();
+        map.forEach((k, x)-> System.out.println(k + " -> " + x));
+        if (DP.canTranscode("1234124421")) {
+            System.out.println("Can transcode");
+        } else {
+            System.out.println("Can't transcode");
+        }
+        MyLoop.loopEffect();
     }
 }

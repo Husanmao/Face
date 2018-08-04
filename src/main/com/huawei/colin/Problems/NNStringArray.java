@@ -1,7 +1,5 @@
 package com.huawei.colin.Problems;
 
-import com.sun.istack.internal.NotNull;
-
 /*
  * Create an 8 x 8 Array to represent a chess board.
  * Print out the array with alternate ‘X’ and ‘O’ entries

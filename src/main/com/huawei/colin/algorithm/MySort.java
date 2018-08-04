@@ -16,6 +16,7 @@ public class MySort {
 	public static void main(String[] args) throws NoSuchAlgorithmException {
 		// TODO Auto-generated method stub
 		int num = 10000;
+		String str = "hudongfeng";
 		Integer[] nums = new Integer[num];
 		randomNums(num, nums);
 		long begin = new Date().getTime();

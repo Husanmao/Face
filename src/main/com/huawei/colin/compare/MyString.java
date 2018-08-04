@@ -1,6 +1,7 @@
-package com.huawei.colin.util;
+package com.huawei.colin.compare;
 
 import com.sun.istack.internal.NotNull;
+import org.apache.commons.lang.StringUtils;
 import org.jetbrains.annotations.Contract;
 
 import java.util.Date;
@@ -12,6 +13,16 @@ import java.util.Date;
  */
 public final class MyString {
 
+    @Override
+    public boolean equals(Object obj) {
+        return super.equals(obj);
+    }
+
+    @Override
+    public int hashCode() {
+        return super.hashCode();
+    }
+
     // Max string length we use
     private static final int MAX_LENGTH = 10000000;
 
@@ -20,12 +31,15 @@ public final class MyString {
 
     /**
      * Compare the effect between StringBuilder、StringBuffer、String
+     * 结论:String相加性能比后两者低4个数量级,StringBuffer由于需要考虑到
+     * 线程同步,所以性能约为StringBuilder的一半
      */
     public static void concatEffectCompare() {
 
         // string + effect
         long origin = new Date().getTime();
-//        String str = "";
+        String str = "";
+        if(StringUtils.isEmpty(str)) System.out.println("");
         int j = 0;
 //        do {
 //            for (int i = 0; i < MAX_LENGTH; i++) {
@@ -95,7 +109,7 @@ public final class MyString {
         //当函数中操作该拷贝对象时，如果是赋值操作，会修改引用（也即拷贝中的引用地址）
         //；如果是直接对拷贝对象做操作，例如append之类的操作，则实际操作的是保存的引用
         //地址指向的heap中的值
-
+        concatEffectCompare();
         String a = "hudongfeng";    //a保存的地址为@918
         changeStr(a);
         System.out.println(a);  //此时的a依旧是"hudongfeng"，地址是@918

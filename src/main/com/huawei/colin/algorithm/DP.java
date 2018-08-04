@@ -1,6 +1,6 @@
 package com.huawei.colin.algorithm;
 
-import com.huawei.colin.util.MyString;
+import com.huawei.colin.compare.MyString;
 
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;

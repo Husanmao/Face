@@ -34,4 +34,23 @@ public final class MyList<T> {
         }
         return true;
     }
+
+    /**
+     * Find the K element of the list faest
+     */
+    public static int getKElement(@NotNull List<Integer> list, int k) {
+        int value = 0;
+        int len = list.size();
+        if (len < k) return 0;
+        List<Integer> list1 = list.subList(k, len);
+        List<Integer> list2 = list;
+        int i = 0;
+        while (list1 != null) {
+            i++;
+            list1 = list.subList(k + i, len);
+            list2 = list.subList(i, len);
+        }
+
+        return list2.get(0);
+    }
 }
